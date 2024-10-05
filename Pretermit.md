@@ -9,7 +9,7 @@ multipass list
 multipass start primary
 ```
 ```bash
-ssh ubuntu@10.152.10.171
+ssh ubuntu@10.237.161.23
 ```
 passwd : 1215
 
@@ -39,7 +39,7 @@ sudo apt install build-essential linux-headers-$(uname -r)
 ```
 
 
--- In Linux to check return status of last executed command
+#### In Linux to check return status of last executed command
 ```bash
 echo $?
 ```
