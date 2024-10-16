@@ -1,1 +1,8 @@
 [BOOK] - "What Every Computer Scientist Should Know About Floating-Point Arithmetic"
+[TOPIC][INTERVIEW] - Linux kernel memory management, interrupts, IOMMU concepts.
+		   - Linux kernel architecture, memory management, scheduler, synchronization techniques etc.
+[LINK] - https://www.kernel.org/doc/Documentation/devicetree/bindings/iommu/samsung%2Csysmmu.txt
+
+
+[MUST-WATCH] : https://www.youtube.com/watch?v=XoYkHUnmpQo
+[MUST-WATCH] : https://www.youtube.com/watch?v=M16l_ymlfcs
