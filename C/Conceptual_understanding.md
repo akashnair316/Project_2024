@@ -204,3 +204,33 @@ Property of     Property of
 **All the functions which are declared without a keyword static is global.**\
 **static with variable will be preserve it's value across multiple function calls.**\
 **A function is externed by default if keyword static is not used.**\
+
+
+### TOPIC-IX
+**VOID**
+* No Data and No type
+* A pointer declared as void has no type. It can point to any data.
+    void *ptr;
+    int a;
+    char c;
+
+    ptr = &a;
+        OR
+    ptr = &c;
+
+* Void pointer has no idea of what kind of data is stored or what type or how many bytes of data stored at that location.
+* Also it only has **starting address** of that **byte**.
+* *ptr is not allowed.
+
+```bash
+void *ptr;
+int a = 10;
+char x = 'a';
+
+ptr = &a;
+
+To use or to dereference ptr, we need to
+int *ptr_a = (int *) ptr;
+*ptr_a can be done now.
+```
+**For void pointers typecasting is a must.**
