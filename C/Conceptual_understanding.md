@@ -140,12 +140,14 @@ In 0xDEAD if I set some specific Bit of that byte to HIGH LED peripheral will be
 ### Topic-VII
 **Qualifiers**
 When a qualifier is used with a variable it changes it's property.
+**size qualifier**
 ```bash
-size qualifier --> changes size property of variable
-    * short, long, long long
+changes size property of variable.
+* short, long, long long
 ```
+**signed qualifier**
 ```bash
-signed qualifier --> changes sign property of a variable
+Changes sign property of a variable
     * signed(default) and unsigned
     signed int a or int a --> Both are same
     [x][][][] [][][][] 
@@ -159,10 +161,9 @@ signed qualifier --> changes sign property of a variable
     [0][][][] [][][][]
     if '0' --> Max value : (2^32/2 -1) & Min value : -(2^32 - 1)
 ```
+**type qualifier**
 ```bash
-type qualifier
     * volatile and const
-
     const :
     Will be Read Only : cannot be modified.
     const int var = 10; // Now this non-modifiedable --> Compilation error will occur if tried to modify.
