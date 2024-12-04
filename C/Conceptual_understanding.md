@@ -155,9 +155,9 @@ Changes sign property of a variable
 
     signed : +ve, 0, -ve
     [1][][][] [][][][]
-    if '1' --> (2^32 -1)
+    if '1' --> (2^32 -1) --> If all 8 bit is 1
 
-    unsigned : +ve, 0, -ve
+    unsigned : +ve, 0
     [0][][][] [][][][]
     if '0' --> Max value : (2^32/2 -1) & Min value : -(2^32 - 1)
 ```
