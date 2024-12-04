@@ -128,10 +128,10 @@ In 0xDEAD if I set some specific Bit of that byte to HIGH LED peripheral will be
 
 ### Operators
 ```bash
-&\
-|\
-^\
-~\
->>\
-<<\
+&
+|
+^
+~
+>> (equivalent to dividing number by 2^n)
+<< (equivalent to multiplying number by 2^n)
 ```
