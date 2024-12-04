@@ -200,3 +200,7 @@ const int    *   const ptr ;
 Property of     Property of
   Data            Pointer
 ```
+### Topic-VIII
+**All the functions which are declared without a keyword static is global.**
+**static with variable will be preserve it's value across multiple function calls.**
+**A function is externed by default if keyword static is not used.**
