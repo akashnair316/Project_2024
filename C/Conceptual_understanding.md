@@ -74,4 +74,4 @@ label:
 **STRUCT** - Organising the Data
 - Helps to group **Primitive Data types** as a **single user defined Data Type**.
 
-![alt text](image.png)
+<img src="/home/akash/Downloads.image.png" alt="description" width="200"/>
