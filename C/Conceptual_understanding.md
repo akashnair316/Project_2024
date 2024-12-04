@@ -175,5 +175,28 @@ Changes sign property of a variable
 
     Now, *ptr = 20; is not possible.
     ptr = &y; is possible.
+```
+const int *ptr; // This can also be **intiliazed** later because ptr is **not constant**.
+**Pointer can change the pointing location but it cannot modified the value to where it is pointing to.**
 
+```bash
+A constant pointer
+int * const ptr; //Not allowed, lets assume it has stored some garbage value. And if we do *ptr, it might be possible that address is not mapped in the program. So we need to initialize the same.
+
+int * const ptr = &var;
+Now I cannot do ptr = &var_second; But we can do *ptr = 200;
+```
+
+```bash
+A constant pointer to a constant integer
+const int * const ptr = &var;
+Cannot do *ptr = 30 or ptr = &var_second. 
+Compiler will cause the error.
+```
+```bash
+
+const int    *   const ptr ;
+<--------->     <-------->
+Property of     Property of
+  Data            Pointer
 ```
