@@ -35,7 +35,7 @@ scanf("%d", &num);
 
 #### Topic-II
 **LOOPS**
-    * Helpfull to execute set of **instructions** or **statements** again & again untill a certain condition is fullfilled.
+- Helpfull to execute set of **instructions** or **statements** again & again untill a certain condition is fullfilled.
 
     ```bash
     for (init; condition; Inc/Dec) {
