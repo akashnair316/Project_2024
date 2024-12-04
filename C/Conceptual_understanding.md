@@ -29,11 +29,11 @@ char = 1 byte
 sample : char a = 'x';
 ```
 
-#### Topic-I
-scanf("%d", &num);
+### Topic-I
+scanf("%d", &num);\
 "%d" --> **Format Specifier**, here format is of **Data Type** integer. Tells CPU, wanted to allocate some space for **num** variable of type integer.
 
-#### Topic-II
+### Topic-II
 **LOOPS**
 - Helpfull to execute set of **instructions** or **statements** again & again untill a certain condition is fullfilled.
 
