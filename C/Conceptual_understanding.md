@@ -73,4 +73,5 @@ label:
 ### Topic-IV
 **STRUCT** - Organising the Data
 - Helps to group **Primitive Data types** as a **single user defined Data Type**.
+
 ![alt text](image.png)
