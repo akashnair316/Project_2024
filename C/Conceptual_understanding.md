@@ -127,9 +127,11 @@ In 0xDEAD if I set some specific Bit of that byte to HIGH LED peripheral will be
 ```
 
 ### Operators
+```bash
 &\
 |\
 ^\
 ~\
 >>\
 <<\
+```
