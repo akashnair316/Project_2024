@@ -74,4 +74,27 @@ label:
 **STRUCT** - Organising the Data
 - Helps to group **Primitive Data types** as a **single user defined Data Type**.
 
-<img src="/home/akash/Downloads.image.png" alt="description" width="200"/>
+```bash
+struct student {
+    int std_id;
+    int class;
+    int age;
+    char *name;
+};
+
+struct student var;
+
+--RAM-- Address--
+|-----| 0x2000
+|-----| 0x2004--> var
+|-----| 0x2008
+|-----| 0x200C
+|-----| 0x2010
+|-----| 0x2014
+
+struct student *s_ptr;
+s_ptr = &var;
+
+s_ptr->std_id;
+
+```
