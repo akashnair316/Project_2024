@@ -74,22 +74,22 @@ label:
 **STRUCT** - Organising the Data
 - Helps to group **Primitive Data types** as a **single user defined Data Type**.
 
-+-----------------+
-| Address: 0x400   |
-| ID  :    42      |
-+------------------+
-| Address: 0x02    |
-| Data:    73      |
-+------------------+
-| Address: 0x03    |
-| Data:    15      |
-+------------------+
-| Address: 0x01    |
-| Data:    42      |
-+------------------+
-| Address: 0x02    |
-| Data:    73      |
-+------------------+
-| Address: 0x03    |
-| Data:    15      |
-+------------------+
++------------------+\
+| Address: 0x400   |\
+| ID  :    42      |\
++------------------+\
+| Address: 0x02    |\
+| Data:    73      |\
++------------------+\
+| Address: 0x03    |\
+| Data:    15      |\
++------------------+\
+| Address: 0x01    |\
+| Data:    42      |\
++------------------+\
+| Address: 0x02    |\
+| Data:    73      |\
++------------------+\
+| Address: 0x03    |\
+| Data:    15      |\
++------------------+\
