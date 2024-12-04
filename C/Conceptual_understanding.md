@@ -43,7 +43,7 @@ scanf("%d", &num);\
     }
     ```
     ```bash
-    Initialization;
+    //Initialization;
     while(condition) {
         //Statement or Instructions
         Increments/Decrements;
@@ -55,3 +55,41 @@ scanf("%d", &num);\
 
     } while(condition);
     ```
+
+### Topic-III
+**Break and Continue**
+continue - continue to execute the **loop again** by checking the **condition of loop** again.
+break - **Start from end of the current execution loop**. i.e terminate the current execution loop.(for, while, do-while)
+
+**goto**
+```bash
+goto label:
+\\ statement 1;
+\\ statement 2;
+
+label:
+\\ statement x;
+```
+### Topic-IV
+**STRUCT** - Organising the Data
+- Helps to group **Primitive Data types** as a **single user defined Data Type**.
+
++-----------------+
+| Address: 0x400   |
+| ID  :    42      |
++------------------+
+| Address: 0x02    |
+| Data:    73      |
++------------------+
+| Address: 0x03    |
+| Data:    15      |
++------------------+
+| Address: 0x01    |
+| Data:    42      |
++------------------+
+| Address: 0x02    |
+| Data:    73      |
++------------------+
+| Address: 0x03    |
+| Data:    15      |
++------------------+
