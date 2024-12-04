@@ -234,3 +234,13 @@ int *ptr_a = (int *) ptr;
 *ptr_a can be done now.
 ```
 **For void pointers typecasting is a must.**
+
+### TOPIC-X
+ENDIANESS
+```bash
+Data = 0x12345678
+
+MSB         LSB
+[12][34][56][78] --> BIG
+[78][56][34][12] --> LITTLE
+```
