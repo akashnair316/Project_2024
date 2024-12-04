@@ -28,3 +28,30 @@ double - 8 bytes
 char = 1 byte
 sample : char a = 'x';
 ```
+
+#### Topic-I
+scanf("%d", &num);
+"%d" --> **Format Specifier**, here format is of **Data Type** integer. Tells CPU, wanted to allocate some space for **num** variable of type integer.
+
+#### Topic-II
+**LOOPS**
+    * Helpfull to execute set of **instructions** or **statements** again & again untill a certain condition is fullfilled.
+
+    ```bash
+    for (init; condition; Inc/Dec) {
+        //Statements or Instructions
+    }
+    ```
+    ```bash
+    Initialization;
+    while(condition) {
+        //Statement or Instructions
+        Increments/Decrements;
+    }
+    ```
+    ```bash
+    do {
+        Statements or Instructions;
+
+    } while(condition);
+    ```
