@@ -139,7 +139,7 @@ In 0xDEAD if I set some specific Bit of that byte to HIGH LED peripheral will be
 
 ### Topic-VII
 **Qualifiers**
-When a qualifier is used with a variable it changes it's property.
+When a qualifier is used with a variable it changes it's property.\
 **size qualifier**
 ```bash
 changes size property of variable.
@@ -168,5 +168,12 @@ Changes sign property of a variable
     Will be Read Only : cannot be modified.
     const int var = 10; // Now this non-modifiedable --> Compilation error will occur if tried to modify.
     const int var; // Also not allowed
+
+    const with pointers
+    int x = 10;
+    const int *ptr = &x;
+
+    Now, *ptr = 20; is not possible.
+    ptr = &y; is possible.
 
 ```
